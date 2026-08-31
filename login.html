@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xama Chat - Login</title>
+    <link rel="stylesheet" href="auth.css">
+</head>
+
+<body>
+
+    <div class="auth-container">
+
+        <div class="logo">
+            X
+        </div>
+
+        <h1>Xama Chat</h1>
+
+        <p class="subtitle">Welcome back!</p>
+
+        <form id="loginForm">
+
+            <div class="input-group">
+                <label>Email Address</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                >
+            </div>
+
+            <div class="input-group">
+                <label>Password</label>
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Enter your password"
+                    required
+                >
+            </div>
+
+            <button type="submit" class="auth-button">
+                Login
+            </button>
+
+            <p id="message"></p>
+
+        </form>
+
+        <div class="switch-page">
+            Don't have an account?
+            <a href="/signup.html">Create Account</a>
+        </div>
+
+    </div>
+
+    <script src="login.js"></script>
+
+</body>
+</html>
