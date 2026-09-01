@@ -63,7 +63,10 @@ document.addEventListener("DOMContentLoaded", () => {
                     "Account created successfully!";
 
                 setTimeout(() => {
-                    window.location.href = "/";
+
+                    // Directly open chat page
+                    window.location.href = "/index.html";
+
                 }, 800);
 
             } else {
