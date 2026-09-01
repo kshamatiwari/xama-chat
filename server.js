@@ -176,7 +176,7 @@ app.get("/", (req, res) => {
         return res.sendFile(
             path.join(
                 __dirname,
-                "Index.html"
+                "index.html"
             )
         );
 
